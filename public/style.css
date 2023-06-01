@@ -1,0 +1,115 @@
+body, html
+{
+    margin: 0px;
+    padding: 0px;
+    height: 100%; /* Add this */
+}
+
+.scoreboard{
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.scoreboard_name_1{
+    color: dodgerblue;
+}
+
+
+
+.scoreboard_name_2{
+    color: #ff4c4c;
+}
+
+.board-bg{
+    background-color: antiquewhite;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: max-content;
+    border-radius: 10px;
+
+}
+
+.board{
+    padding: 3%;
+    width: fit-content;
+    block-size: fit-content;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+.square{
+    width: 170px;
+    height: 170px;
+    background-color: white;
+    padding: 3px;
+    border: antiquewhite;
+    
+}
+
+.square p{
+    font-style: bold;
+    font-size: 50px;
+}
+
+.square:hover
+{
+    transform: scale(0.8, 0.8);
+    -ms-transform: scale(0.8, 0.8); /* IE 9 */
+    -webkit-transform: scale(0.8, 0.8);
+    border-radius: 10px;
+    
+
+}
+
+.PlayerTurn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 35px;
+}
+
+.Result{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+
+.ButtonNewGame{
+        
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        background-color: dodgerblue; 
+        border: 2px solid dodgerblue;
+        border-radius: 5px;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2%;
+      
+}
+
+.ButtonNewGame:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+      
+  }
